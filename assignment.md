@@ -19,6 +19,16 @@ Queries:
 
 Complete the **city_bikes.ipynb** notebook to demonstrate how you executed the tasks above. 
 
+## I had created a city_bikes.ipynb notebook following the steps below:
+conda create --name city_bikes.ipynb
+conda install -c conda-forge tensorflow
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=city_bikes.ipynb
+conda create -n yelp_foursquare_EDA.ipynb python=3.9
+conda activate yelp_foursquare_EDA.ipynb
+import sys
+sys.executable
+
 ## Part 2: Connecting to Foursquare and Yelp APIs
 
 Your tasks are as follows:
