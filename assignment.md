@@ -24,8 +24,8 @@ conda create --name city_bikes.ipynb
 conda install -c conda-forge tensorflow
 conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=city_bikes.ipynb
-conda create -n yelp_foursquare_EDA.ipynb python=3.9
-conda activate yelp_foursquare_EDA.ipynb
+conda create -n city_bikes.ipynb python=3.9
+conda activate city_bikes.ipynb
 import sys
 sys.executable
 
@@ -62,6 +62,15 @@ Validate your data.
 
 Complete the **joining_data.ipynb** notebook to demonstrate how you executed the tasks above.
 
+## I had created a city_bikes.ipynb notebook following the steps below:
+conda create --name joining_data.ipynb
+conda install -c conda-forge tensorflow
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=joining_data.ipynb
+conda create -n joining_data.ipynb python=3.9
+conda activate joining_data.ipynb
+import sys
+sys.executable
 
 ## Part 4: Building a Model
 
@@ -70,3 +79,13 @@ Complete the **joining_data.ipynb** notebook to demonstrate how you executed the
 3. Stretch: can you think of a way to turn the above regression problem into a classification one? Without coding, can you sketch out how you would cast the problem specifically, and lay out your approaches?
 
 Complete the **model_building.ipynb** notebook to demonstrate how you executed the tasks above.
+
+## I had created a model_building.ipynb notebook following the steps below:
+conda create --name model_building.ipynb
+conda install -c conda-forge tensorflow
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=model_building.ipynb
+conda create -n model_building.ipynb python=3.9
+conda activate model_building.ipynb
+import sys
+sys.executable
