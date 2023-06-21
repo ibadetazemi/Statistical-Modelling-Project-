@@ -11,6 +11,14 @@ Your tasks are as follows:
 
 Queries:
 
+import pandas as pd
+
+df = pd.read_csv('201306-citibike-tripdata.csv')
+df
+
+df.info()
+
+
 3. Choose a city covered by the CityBikes API and retrieve all available bike stations in that city.
     Answer: NYC
 
