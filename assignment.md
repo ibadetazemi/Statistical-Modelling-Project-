@@ -2,14 +2,14 @@
 
 For this part, we will work with an API that you have not seen before: [CityBikes](https://citybik.es/) 
 
-Citybikes is an API that provides bike sharing data for apps, research and projects.
+Citybikes is an API that provides bike-sharing data for apps, research and projects.
 CityBikes supports more than 400 cities and the Citybikes API is an interesting dataset for building bike-sharing transportation projects.
 
 Your tasks are as follows:
 1. Explore the structure of the API, query the API and understand the data returned.
     Answer: Get the Citybike Data first, we use the Citybike API to get the data across all cities.
 
-Querries:
+Queries:
 
 3. Choose a city covered by the CityBikes API and retrieve all available bike stations in that city.
     Answer: NYC
@@ -32,6 +32,16 @@ Your tasks are as follows:
 
 
 Complete the **yelp_foursquare_EDA.ipynb** notebook to demonstrate how you executed the tasks above.
+
+## I had created a yelp_foursquare_EDA.ipynb notebook following the steps below:
+conda create --name yelp_foursquare_EDA.ipynb
+conda install -c conda-forge tensorflow
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=yelp_foursquare_EDA.ipynb
+conda create -n yelp_foursquare_EDA.ipynb python=3.9
+conda activate yelp_foursquare_EDA.ipynb
+import sys
+sys.executable
 
 ## Part 3: Joining Data
 
