@@ -6,10 +6,16 @@ Citybikes is an API that provides bike sharing data for apps, research and proje
 CityBikes supports more than 400 cities and the Citybikes API is an interesting dataset for building bike-sharing transportation projects.
 
 Your tasks are as follows:
-1. Explore the structure of the API, query the API and understand the data returned. 
-2. Choose a city covered by the CityBikes API and retrieve all available bike stations in that city. 
-3. For each bike station, use the API to call the latitude, longitude and number of bikes. 
-4. Parse the JSON object into a Pandas dataframe. 
+1. Explore the structure of the API, query the API and understand the data returned.
+    Answer: Get the Citybike Data first, we use the Citybike API to get the data across all cities.
+
+Querries:
+
+3. Choose a city covered by the CityBikes API and retrieve all available bike stations in that city.
+    Answer: NYC
+
+4. For each bike station, use the API to call the latitude, longitude and number of bikes. 
+5. Parse the JSON object into a Pandas dataframe. 
 
 Complete the **city_bikes.ipynb** notebook to demonstrate how you executed the tasks above. 
 
