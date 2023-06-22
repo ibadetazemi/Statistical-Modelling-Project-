@@ -45,15 +45,7 @@ Your tasks are as follows:
 
 Complete the **yelp_foursquare_EDA.ipynb** notebook to demonstrate how you executed the tasks above.
 
-## I had created a yelp_foursquare_EDA.ipynb notebook following the steps below:
-conda create --name yelp_foursquare_EDA.ipynb
-conda install -c conda-forge tensorflow
-conda install -c anaconda ipykernel
-python -m ipykernel install --user --name=yelp_foursquare_EDA.ipynb
-conda create -n yelp_foursquare_EDA.ipynb python=3.9
-conda activate yelp_foursquare_EDA.ipynb
-import sys
-sys.executable
+Step 1.) I had created a yelp_foursquare_EDA.ipynb notebook 
 
 ## Part 3: Joining Data
 
@@ -64,15 +56,7 @@ Validate your data.
 
 Complete the **joining_data.ipynb** notebook to demonstrate how you executed the tasks above.
 
-## I had created a city_bikes.ipynb notebook following the steps below:
-conda create --name joining_data.ipynb
-conda install -c conda-forge tensorflow
-conda install -c anaconda ipykernel
-python -m ipykernel install --user --name=joining_data.ipynb
-conda create -n joining_data.ipynb python=3.9
-conda activate joining_data.ipynb
-import sys
-sys.executable
+Step: 1) I had created a city_bikes.ipynb notebook 
 
 ## Part 4: Building a Model
 
@@ -82,12 +66,4 @@ sys.executable
 
 Complete the **model_building.ipynb** notebook to demonstrate how you executed the tasks above.
 
-## I had created a model_building.ipynb notebook following the steps below:
-conda create --name model_building.ipynb
-conda install -c conda-forge tensorflow
-conda install -c anaconda ipykernel
-python -m ipykernel install --user --name=model_building.ipynb
-conda create -n model_building.ipynb python=3.9
-conda activate model_building.ipynb
-import sys
-sys.executable
+Step 1.) I had created a model_building.ipynb notebook 
