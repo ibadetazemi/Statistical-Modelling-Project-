@@ -32,7 +32,7 @@ Build a regression model using Python’s statsmodels module that demonstrates a
 (fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
 
 ## Challenges 
-(discuss challenges you faced in the project)
+(Some challenges that I faced was that the Jupyter Notebook kept glitching and had to re-start kernel numerous times another issue is that creating an environment was glitching as well.)
 
 ## Future Goals
 (If I had more time I would spend more time on going more in-depth with cleaning data.)
