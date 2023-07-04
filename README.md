@@ -1,9 +1,11 @@
-# Final-Project-Statistical-Modelling-with-Python
+Final-Project-Statistical-Modelling-with-Python
 
-## Project/Goals
+Project/Goals
+
 (My project goals are to: 1. Connecting to CityBikes API, Step 2: Connecting to Foursquare and Yelp APIs, Part 3: Joining Data, Part 4: Building a Model + Results + Challenges + future goals.)
 
-## Process
+Process
+
 Part 1: Connecting to CityBikes API
 
 For this part, we will work with an API that you have not seen before: CityBikes
@@ -28,11 +30,14 @@ Part 4: Building a Model
 
 Build a regression model using Python’s statsmodels module that demonstrates a relationship between the number of bikes in a particular location and the characteristics of the POIs in that location. Interpret results. Expand on the model output, and derive insights from your model. Stretch: can you think of a way to turn the above regression problem into a classification one? Without coding, can you sketch out how you would cast the problem specifically, and lay out your approaches? Complete the model_building.ipynb notebook to demonstrate how you executed the tasks above.
 
-## Results
+Results
+
 (Fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model: The coverage that I found is that the people in NYC use citibikes quite often and for long periods at a time.)
 
-## Challenges 
+Challenges
+
 (Some challenges that I faced was that the Jupyter Notebook kept glitching and had to re-start kernel numerous times another issue is that creating an environment was glitching as well.)
 
-## Future Goals
+Future Goals
+
 (If I had more time I would spend more time on going more in-depth with cleaning data.)
