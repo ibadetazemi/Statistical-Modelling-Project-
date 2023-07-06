@@ -9,15 +9,6 @@ Your tasks are as follows:
 1. Explore the structure of the API, query the API and understand the data returned.
     Answer: Get the Citybike Data first, we use the Citybike API to get the data across all cities.
 
-Queries:
-
-import pandas as pd
-
-df = pd.read_csv('201306-citibike-tripdata.csv')
-df
-
-df.info()
-
 
 3. Choose a city covered by the CityBikes API and retrieve all available bike stations in that city.
     Answer: NYC
