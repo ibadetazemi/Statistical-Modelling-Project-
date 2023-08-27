@@ -33,7 +33,12 @@ Tasks:
 
 Results
 
-(Fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model: The coverage that I found is that the people in NYC use citibikes quite often and for long periods at a time.)
+(Fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model: The coverage that I found is that the people in NYC use citibikes quite often and for long periods at a time. The regression model that was built to predict number of bikes, ratings and distance is performing very well.
+
+The low R-squared value appears to reflect that there is a strong correlation
+<> Coefficient: Is positive and has a positive affect on Y
+<> T-Statistic: Strong coefficient
+<> P-Value: Significance of each and is a strong coefficient)
 
 Challenges
 
