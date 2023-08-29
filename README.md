@@ -56,6 +56,44 @@ fig_5=sns.pairplot(data=citybikes,
                     plot_kws={'line_kws':{'color':'green'}})
 plt.show()
 
+# EDA visualisations
+fig, axes = plt.subplots(2, 2, figsize=(19, 10))
+
+# Citybikes_histogram
+axes[0,0].hist(citybikes['Number of Bikes'])
+axes[0,0].set_title('[Matplotlib] Histogram of Number of Bikes')
+
+axes[0,1].boxplot(citybikes['Ratings'])
+axes[0,1].set_title('[Matplotlib] Box-Plot of Ratings')
+
+sns.histplot(ax=axes[1,0], data=citybikes, x="Distance")
+axes[1,0].set_title('[Seaborn] Histogram of Distance')
+
+sns.boxplot(ax=axes[1,1], data=citybikes, y="Bike Stations")
+axes[1,1].set_title('[Seaborn] Box-Plot of Bike Stations')
+
+plt.show()
+
+# Citybikes_scatterplot
+fig_2=sns.scatterplot(data=citybikes,
+            y ='Latitude',
+            x ='Longitude',
+            hue='Ratings',
+            size='Ratings',
+            sizes=(0, 200))
+fig_2.set(title='Restaurants in New York City')
+
+# Scatterplot for available bikes in New York City
+fig_1=sns.scatterplot(data=citybikes,
+            y ='Latitude',
+            x ='Longitude',
+            hue='Number of Bikes',
+            size='Number of Bikes',
+            sizes=(0, 200))
+fig_1.set(title='Available bikes in New York City')
+
+import seaborn as sns
+
 Part 4: Building a Model
 
 Tasks:
