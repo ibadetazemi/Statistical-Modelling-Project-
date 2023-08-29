@@ -25,6 +25,37 @@ Tasks:
 
 1.) Join the data from Part 1 with the data from Part 2 to create a new dataframe. 2.) Use data visualization to explore the data. 3.) Create your own SQLite database and store the data you've collected on the POIs. 4.) Validate your data. 5.) Complete the joining_data.ipynb notebook to demonstrate how you executed the tasks above.
 
+EDA Visualisations:
+
+# Citybikes_heatmap
+sns.heatmap(data= numeric, annot=True)
+
+# sns.boxplot(x=citybikes['Ratings']) - Citybikes_whiskers
+sns.boxplot(x=citybikes['Distance'], whis=4)
+
+# Citybikes_violin
+sns.violinplot(data=citybikes, y="Number of Bikes")
+plt.show()
+
+# Citybikes_boxplot
+plt.figure(figsize=(6.4,4.8)) #default size
+sns.barplot(data=citybikes, x='Ratings', y='Number of Bikes') #averages with error bars
+
+plt.show()
+
+# Citybikes_plotgraph
+plt.figure(figsize=(15,8))
+sns.scatterplot(data=citybikes, x='Ratings', y='Number of Bikes', hue='Distance', size='Number of Bikes')
+
+plt.show()
+
+# Citybikes_pairplot
+fig_5=sns.pairplot(data=citybikes,
+                    kind='reg', 
+                    diag_kind='kde',
+                    plot_kws={'line_kws':{'color':'green'}})
+plt.show()
+
 Part 4: Building a Model
 
 Tasks:
