@@ -43,6 +43,9 @@ Tasks:
 #Citybikes_heatmap
 sns.heatmap(data= numeric, annot=True)
 
+#Citybikes_histogram2
+citybikes.plot.hist()
+
 #Citybikes_whiskers
 sns.boxplot(x=citybikes['Distance'], whis=4)
 
