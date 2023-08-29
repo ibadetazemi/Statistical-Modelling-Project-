@@ -30,7 +30,7 @@ EDA Visualisations:
 # Citybikes_heatmap
 sns.heatmap(data= numeric, annot=True)
 
-# sns.boxplot(x=citybikes['Ratings']) - Citybikes_whiskers
+# Citybikes_whiskers
 sns.boxplot(x=citybikes['Distance'], whis=4)
 
 # Citybikes_violin
@@ -43,7 +43,7 @@ sns.barplot(data=citybikes, x='Ratings', y='Number of Bikes') #averages with err
 
 plt.show()
 
-# Citybikes_plotgraph
+# Citybikes_scatterplot
 plt.figure(figsize=(15,8))
 sns.scatterplot(data=citybikes, x='Ratings', y='Number of Bikes', hue='Distance', size='Number of Bikes')
 
@@ -56,7 +56,7 @@ fig_5=sns.pairplot(data=citybikes,
                     plot_kws={'line_kws':{'color':'green'}})
 plt.show()
 
-# EDA visualisations
+# Citybikes_pairplot
 fig, axes = plt.subplots(2, 2, figsize=(19, 10))
 
 # Citybikes_histogram
@@ -74,7 +74,7 @@ axes[1,1].set_title('[Seaborn] Box-Plot of Bike Stations')
 
 plt.show()
 
-# Citybikes_scatterplot
+# Citybikes_plotgraph2
 fig_2=sns.scatterplot(data=citybikes,
             y ='Latitude',
             x ='Longitude',
@@ -83,7 +83,7 @@ fig_2=sns.scatterplot(data=citybikes,
             sizes=(0, 200))
 fig_2.set(title='Restaurants in New York City')
 
-# Scatterplot for available bikes in New York City
+# Citybikes_plotgraph
 fig_1=sns.scatterplot(data=citybikes,
             y ='Latitude',
             x ='Longitude',
@@ -91,8 +91,6 @@ fig_1=sns.scatterplot(data=citybikes,
             size='Number of Bikes',
             sizes=(0, 200))
 fig_1.set(title='Available bikes in New York City')
-
-import seaborn as sns
 
 Part 4: Building a Model
 
