@@ -1,11 +1,11 @@
-Final-Project-Statistical-Modelling-with-Python
+#Final-Project-Statistical-Modelling-with-Python
 
-Project/Goals
+#Project/Goals
 
 (My project goals are to: Determine the strength of the relationship between number of bikes + POI’s +
 1. Connecting to CityBikes API Step 2: Connecting to Foursquare and Yelp APIs, Part 3: Joining Data, Part 4: Building a Model + Results + Challenges + future goals.)
 
-Process
+#Process
 
 Part 1: Connecting to CityBikes API
 
@@ -25,7 +25,7 @@ Tasks:
 
 1.) Join the data from Part 1 with the data from Part 2 to create a new dataframe. 2.) Use data visualization to explore the data. 3.) Create your own SQLite database and store the data you've collected on the POIs. 4.) Validate your data. 5.) Complete the joining_data.ipynb notebook to demonstrate how you executed the tasks above.
 
-EDA Visualisations:
+#EDA Visualisations:
 
 # Citybikes_heatmap
 sns.heatmap(data= numeric, annot=True)
@@ -104,11 +104,11 @@ sns.lmplot(x='POI_Count', y='Number of Bikes', data=citybikess, line_kws={'color
 
 Part 4: Building a Model
 
-Tasks:
+#Tasks:
 
 1.) Build a regression model using Python’s statsmodels module that demonstrates a relationship between the number of bikes in a particular location and the characteristics of the POIs in that location. 2.) Interpret results. Expand on the model output, and derive insights from your model. 3.) Can you think of a way to turn the above regression problem into a classification one? 4.) Complete the model_building.ipynb notebook to demonstrate how you executed the tasks above.
 
-Results
+#Results
 
 (Fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model: The coverage that I found is that the people in NYC use citibikes quite often and for long periods at a time. The regression model that was built to predict number of bikes, ratings and distance is performing very well.
 
@@ -117,10 +117,10 @@ The low R-squared value appears to reflect that there is a strong correlation
 <> T-Statistic: Strong coefficient
 <> P-Value: Significance of each and is a strong coefficient)
 
-Challenges
+#Challenges
 
 (Some challenges that I faced was learning how to use API's, building a regression model as well as time was a challenge.)
 
-Future Goals
+#Future Goals
 
 (If I had more time I would spend more time on going more in-depth with cleaning data and finding more POI and just adding more POI's.)
