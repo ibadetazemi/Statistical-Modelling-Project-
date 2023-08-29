@@ -56,7 +56,7 @@ fig_5=sns.pairplot(data=citybikes,
                     plot_kws={'line_kws':{'color':'green'}})
 plt.show()
 
-# Citybikes_pairplot
+# Citybikes_
 fig, axes = plt.subplots(2, 2, figsize=(19, 10))
 
 # Citybikes_histogram
@@ -91,6 +91,16 @@ fig_1=sns.scatterplot(data=citybikes,
             size='Number of Bikes',
             sizes=(0, 200))
 fig_1.set(title='Available bikes in New York City')
+
+# Citybikes_scatterplot graph
+sns.jointplot(data=citybikes, 
+              x="Ratings", 
+              y="Number of Bikes",
+              height = 8    # a jointplot is a square by default 
+            )
+plt.suptitle("JoinPlot Comparing Number of Bikes to Ratings", y=1)
+
+plt.show()
 
 Part 4: Building a Model
 
