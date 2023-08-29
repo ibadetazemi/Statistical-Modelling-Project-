@@ -56,9 +56,6 @@ fig_5=sns.pairplot(data=citybikes,
                     plot_kws={'line_kws':{'color':'green'}})
 plt.show()
 
-# Citybikes_
-fig, axes = plt.subplots(2, 2, figsize=(19, 10))
-
 # Citybikes_histogram
 axes[0,0].hist(citybikes['Number of Bikes'])
 axes[0,0].set_title('[Matplotlib] Histogram of Number of Bikes')
@@ -101,6 +98,9 @@ sns.jointplot(data=citybikes,
 plt.suptitle("JoinPlot Comparing Number of Bikes to Ratings", y=1)
 
 plt.show()
+
+# Citybikes_predictions
+sns.lmplot(x='POI_Count', y='Number of Bikes', data=citybikess, line_kws={'color': 'black'});
 
 Part 4: Building a Model
 
