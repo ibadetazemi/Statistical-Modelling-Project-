@@ -1,11 +1,11 @@
-#Final-Project-Statistical-Modelling-with-Python
+# Final-Project-Statistical-Modelling-with-Python
 
 #Project/Goals
 
 (My project goals are to: Determine the strength of the relationship between number of bikes + POI’s +
 1. Connecting to CityBikes API Step 2: Connecting to Foursquare and Yelp APIs, Part 3: Joining Data, Part 4: Building a Model + Results + Challenges + future goals.)
 
-#Process
+# Process
 
 Part 1: Connecting to CityBikes API
 
@@ -25,38 +25,38 @@ Tasks:
 
 1.) Join the data from Part 1 with the data from Part 2 to create a new dataframe. 2.) Use data visualization to explore the data. 3.) Create your own SQLite database and store the data you've collected on the POIs. 4.) Validate your data. 5.) Complete the joining_data.ipynb notebook to demonstrate how you executed the tasks above.
 
-#EDA Visualisations:
+# EDA Visualisations:
 
-# Citybikes_heatmap
+#Citybikes_heatmap
 sns.heatmap(data= numeric, annot=True)
 
-# Citybikes_whiskers
+#Citybikes_whiskers
 sns.boxplot(x=citybikes['Distance'], whis=4)
 
-# Citybikes_violin
+#Citybikes_violin
 sns.violinplot(data=citybikes, y="Number of Bikes")
 plt.show()
 
-# Citybikes_boxplot
+#Citybikes_boxplot
 plt.figure(figsize=(6.4,4.8)) #default size
 sns.barplot(data=citybikes, x='Ratings', y='Number of Bikes') #averages with error bars
 
 plt.show()
 
-# Citybikes_scatterplot
+#Citybikes_scatterplot
 plt.figure(figsize=(15,8))
 sns.scatterplot(data=citybikes, x='Ratings', y='Number of Bikes', hue='Distance', size='Number of Bikes')
 
 plt.show()
 
-# Citybikes_pairplot
+#Citybikes_pairplot
 fig_5=sns.pairplot(data=citybikes,
                     kind='reg', 
                     diag_kind='kde',
                     plot_kws={'line_kws':{'color':'green'}})
 plt.show()
 
-# Citybikes_histogram
+#Citybikes_histogram
 axes[0,0].hist(citybikes['Number of Bikes'])
 axes[0,0].set_title('[Matplotlib] Histogram of Number of Bikes')
 
@@ -71,7 +71,7 @@ axes[1,1].set_title('[Seaborn] Box-Plot of Bike Stations')
 
 plt.show()
 
-# Citybikes_plotgraph2
+#Citybikes_plotgraph2
 fig_2=sns.scatterplot(data=citybikes,
             y ='Latitude',
             x ='Longitude',
@@ -80,7 +80,7 @@ fig_2=sns.scatterplot(data=citybikes,
             sizes=(0, 200))
 fig_2.set(title='Restaurants in New York City')
 
-# Citybikes_plotgraph
+#Citybikes_plotgraph
 fig_1=sns.scatterplot(data=citybikes,
             y ='Latitude',
             x ='Longitude',
@@ -89,7 +89,7 @@ fig_1=sns.scatterplot(data=citybikes,
             sizes=(0, 200))
 fig_1.set(title='Available bikes in New York City')
 
-# Citybikes_scatterplot graph
+#Citybikes_scatterplot graph
 sns.jointplot(data=citybikes, 
               x="Ratings", 
               y="Number of Bikes",
@@ -99,7 +99,7 @@ plt.suptitle("JoinPlot Comparing Number of Bikes to Ratings", y=1)
 
 plt.show()
 
-# Citybikes_predictions
+#Citybikes_predictions
 sns.lmplot(x='POI_Count', y='Number of Bikes', data=citybikess, line_kws={'color': 'black'});
 
 Part 4: Building a Model
