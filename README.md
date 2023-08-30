@@ -1,6 +1,6 @@
 # Final-Project-Statistical-Modelling-with-Python
 
-#Project/Goals
+# Project/Goals
 
 My project goals is to determine the strength of the relationship between number of bikes + POI(characteristics)
 
@@ -14,7 +14,7 @@ Tasks:
 2.) I had used the API to call the latitude, longitude and number of bikes for each bike station. 
     Then I had parsed my JSON response into a Pandas dataframe which I had also converted to CSV
 
-Part 2: Connecting to Foursquare and Yelp APIs
+# Part 2: Connecting to Foursquare and Yelp APIs
 
 Tasks:
 
@@ -23,7 +23,7 @@ Tasks:
 3.) Next I had created a DataFrame for the Yelp results and Foursquare results. 
 4.) I prefered Yelp API as it allows customization and was easy to use 
 
-Part 3: Joining Data
+# Part 3: Joining Data
 
 Tasks:
 
@@ -32,13 +32,13 @@ Tasks:
 3.) I had created my own SQLite database and stored the data I had collected 
 4.) I had also validated my data. 
 
-Part 4: Building a Model
+# Part 4: Building a Model
 
 Tasks:
 
 1.) I had build a regression model that resembles a relationship with the number of bikes and POI(restaurants) characteristics
 
-# EDA Visualisations:
+#EDA Visualisations:
 
 #Citybikes_heatmap
 sns.heatmap(data= numeric, annot=True)
@@ -118,7 +118,7 @@ plt.show()
 #Citybikes_predictions
 sns.lmplot(x='POI_Count', y='Number of Bikes', data=citybikess, line_kws={'color': 'black'});
 
-#Results
+# Results
 
 (The coverage that I found is that the people in NYC use citibikes quite often and for long periods at a time. The regression model that was built to predict number of bikes, ratings and distance is performing very well.
 
@@ -127,10 +127,10 @@ The low R-squared value appears to reflect that there is a weak correlation
 <> T-Statistic: Strong coefficient
 <> P-Value: Significance of each and is a strong coefficient)
 
-#Challenges
+# Challenges
 
 (Some challenges that I faced was learning how to use API's, building a regression model as well as time was a challenge.)
 
-#Future Goals
+# Future Goals
 
 (If I had more time I would spend more time on going more in-depth with cleaning data and finding more POI and just adding more POI's.)
