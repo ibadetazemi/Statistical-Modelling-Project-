@@ -38,7 +38,7 @@ Tasks:
 
 1.) I had build a regression model that resembles a relationship with the number of bikes and POI(restaurants) characteristics
 
-#EDA Visualisations:
+# EDA Visualisations:
 
 #Citybikes_heatmap
 sns.heatmap(data= numeric, annot=True)
